@@ -1,52 +1,149 @@
 <style>
-.container {
-widows: 1024px;
-margin: 0 auto;
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-bio{
-    float: left;
-    width: 70%;
-  }
-#contact-info{
-    float: left;
-    width: 30%;
-  }
 
-
-
-#bio-image{
-    float: left;
-    width: 200px;
-
-}
-
-body {
-    background-color: #efeee7;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    color:#333333;
-    margin: 0;
+header {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 0px;
     padding: 0;
-      }
-      
-
-header{
-    background-color: #333333
+	top: 0;
+	height: 70px;
 }
-
-footer { 
-    display: block;
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 h1{
-    color: #eee;
-    font-size: 28px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#container {
+	 width: 950px;
+    padding: 25px;
+    margin: 0px;
+	position: fixed;
+	align-content: center;
+	top: 130px;
+	left: 240px;
+}
+body {
+  padding-top: 0px;
+  margin: 0;
+  margin-top: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  background-image: url("../images/qbkls.png")
+  
+  
+}
+.image {
+	width:150px;
+	height:187px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 0px;
+	
+}
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 10px; /* change it to desired width */
+    background-color: #white; /* change to desired color */
+}
 
+.Arman {
+	position: fixed;
+	top: 14px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	left:245px;
+	font-size: 30px;
+}
+div.relative {
+    position: relative;
+    right: 200px;
+}
+.logo {
+    display: inline-block;
+    vertical-align: left;
+	background-color: #4aaaa5;
+    width: 120px;
+    height: 80px;
+    margin-right: 0px;
+    margin-top: 0px; 
+	position: fixed;
+	left: 240px;
+	top: -10px ;
+	
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: center;
+    padding-left:0px;
+
+    height: 42px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
 }
 
 
-h2{
-    font-size: 24px;
+.buttonspace {
+    -webkit-column-width: 8x; /* Chrome, Safari, Opera */
+    -moz-column-width: 8px; /* Firefox */
+    column-width: 8px;
+	font-size: 40px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: White
 }
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnavleft{
+	float:left
+}
+
+.content {
+  width: 960px ;
+  margin-top: 10px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color: white;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
 
 </style>
